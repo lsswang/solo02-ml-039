@@ -1,0 +1,18 @@
+{
+  "quality_features": [[1.0], [0.0], [-1.0]],
+  "similarity_features": [[1.0, 0.0], [1.0, 0.0], [0.0, 1.0]],
+  "delta": 0.1,
+  "ridge": 0.2,
+  "initial": {"w": [0.0], "t": [0.0, 0.0]},
+  "training_before": [
+    {"included": [0, 2], "excluded": [1], "weight": 8},
+    {"included": [0], "excluded": [], "weight": 2}
+  ],
+  "training_after": [
+    {"included": [1, 2], "excluded": [0], "weight": 8},
+    {"included": [1], "excluded": [], "weight": 2}
+  ],
+  "panel_request": {"k": 2, "cost": [1, 1, 1], "budget": 2, "groups": [0, 0, 0], "lower": [0], "upper": [2], "must_include": [], "must_exclude": []},
+  "external_redundancy_kernel": [[4.0, 3.9, 0.0], [3.9, 4.0, 0.0], [0.0, 0.0, 0.4]],
+  "external_zero_kernel": [[0.0, 0.0], [0.0, 0.0]]
+}
